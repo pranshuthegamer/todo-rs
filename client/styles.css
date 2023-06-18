@@ -1,0 +1,63 @@
+body {
+	padding: 0px;
+	background-color: #000;
+	color: #eee;
+	margin: auto;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ddd;
+}
+
+.header-link {
+	display: inline-block;
+	margin: auto;
+	padding: 0.5em 1em;
+	border: 0.07em solid #184018;
+	background-color: #102810;
+}
+
+#header {
+	background-color: #101510;
+	padding: 0em 0px;
+}
+
+#header > :first-child {
+	margin-right: 0.1em;
+}
+
+#header > *:not(:first-child) {
+	margin: 0em 0.1em;
+}
+
+
+.center {
+	margin: auto
+}
+
+.main-containers {
+	background-color: #122812;
+	border-radius: 0.5em;
+}
+
+#auth-container {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	align-content: center;
+	padding: 2em;
+	margin-top: 2em;
+}
+
+#auth-container > .input {
+	padding: 0.1em;
+}
+
+#auth-container > button {
+	margin: auto;
+}

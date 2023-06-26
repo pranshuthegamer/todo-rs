@@ -1,0 +1,10 @@
+# server side for todo website
+
+# tables
+## users
+users (
+"id" INT,
+"username" TEXT,
+"password" unsigned bigint,
+"tokens" text,
+"last_login" INT);
